@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.drawnavigationtest.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_toast"
+        android:name="com.example.drawnavigationtest.ui.Toast.ToastFragment"
+        android:label="@string/menu_toast"
+        tools:layout="@layout/fragment_toast" />
+
+    <fragment
+        android:id="@+id/nav_stackView"
+        android:name="com.example.drawnavigationtest.ui.StackView.StackViewFragment"
+        android:label="@string/menu_stackView"
+        tools:layout="@layout/fragment_stackview" />
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.example.drawnavigationtest.ui.List.ListFragment"
+        android:label="@string/menu_list"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.drawnavigationtest.ui.Map.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_web"
+        android:name="com.example.drawnavigationtest.ui.Web.WebFragment"
+        android:label="@string/menu_web"
+        tools:layout="@layout/fragment_web" />
+</navigation>
